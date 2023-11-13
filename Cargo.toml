@@ -1,0 +1,11 @@
+[package]
+name = "nfs4_acl_tools"
+version = "0.0.1"
+edition = "2021"
+description = "A small set of functions to read and write ACLs of files or directories mounted per NFS4."
+license = "MIT"
+
+[dependencies]
+bitflags = "2.4.1"
+bitflags_serde_shim = "0.2.4"
+serde = { version = "1.0.192", features = ["derive"] }
